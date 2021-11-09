@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  height: 60px;
+  background-color: $c-primary-dark;
+  @extend %transition;
+  z-index: 99;
+
+  @include onDesktop {
+    height: 118px;
+  }
+
+  &--scroll {
+    background-color: $c-primary-lightest;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+}

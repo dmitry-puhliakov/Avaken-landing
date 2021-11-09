@@ -1,0 +1,46 @@
+.title {
+  &__content {
+    display: flex;
+    width: 100%;
+  }
+
+  &__slider {
+    flex-basis: 55%;
+    min-width: 0;
+  }
+
+  &__text-box {
+    flex-basis: 45%;
+    align-self: center;
+    margin-left: 20px;
+
+    @include onDesktop {
+      margin-left: 64px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 32px;
+
+    @include onDesktop {
+      margin-bottom: 45px;
+    }
+  }
+
+  &__more {
+    display: block;
+    width: 134px;
+    height: 34px;
+    background-color: $secondary-light;
+    @extend %transition;
+    
+    &:hover {
+      background-color: $secondary-dark;
+    }
+
+    @include onDesktop {
+      width: 167px;
+      height: 47px;
+    }
+  }
+}

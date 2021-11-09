@@ -1,0 +1,100 @@
+.menu {
+  &__button {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  &__icon {
+    fill: $c-primary-lightest;
+    @extend %transition;
+
+    &--scroll {
+      fill: $c-primary-dark;
+    }
+
+    @include onDesktop {
+      display: none;
+    }
+  }
+
+  &__button:hover &__icon {
+    fill: $secondary-light;
+  }
+
+  &__icon--menu {
+    display: block;
+  }
+
+  &__button--open &__icon--menu {
+    display: none;
+  }
+
+  &__icon--cross {
+    display: none;
+  }
+
+  &__button--open &__icon--cross {
+    display: block;
+  }
+
+  &__list {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60px;
+    padding-top: 134px;
+    padding-bottom: 194px;
+    box-shadow: 0 50vh 0 rgba(0, 0, 0, 0.2);
+    background-color: $c-primary-lightest;
+
+    &--open {
+      display: block;
+    }
+
+    @include onDesktop {
+      display: flex;
+      position: static;
+      top: 0;
+      margin: 0;
+      padding: 0;
+      box-shadow: none;
+      background: none;
+    }
+  }
+
+  &__item {
+    margin-bottom: 72px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @include onDesktop {
+      margin: 0;
+    }
+  }
+
+  &__link {
+    @extend %transition;
+
+    @include onDesktop {
+      padding: 0 28px;
+    }
+  }
+
+  &__item:first-child &__link {
+    @include onDesktop {
+      padding-left: 0;
+    }
+  }
+  &__item:last-child &__link {
+    @include onDesktop {
+      padding-right: 0;
+    }
+  }
+}

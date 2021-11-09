@@ -1,1 +1,20 @@
-$c-gray: #eee;
+/*Local colors*/
+$c-white:             #fff; /* $c-primary-lightest */
+$c-lighter-gray:   #c2c2c2; /* $c-primary-lighter */
+$c-light-gray:     #aba9af; /* $c-primary-light */
+$c-gray:           #5f5f5f; /* $c-primary-middle */
+$c-dark-gray:      #252525; /* $c-primary-dark */
+$c-black:             #000; /* $c-primary-darkest */
+$c-violet-light:   #7637dd; /* $secondary-light */
+$c-violet-dark:    #6526cc; /* $secondary-dark */
+
+/*Global colors*/
+$c-primary-lightest: $c-white;
+$c-primary-lighter: $c-lighter-gray;
+$c-primary-light: $c-light-gray;
+$c-primary-middle: $c-gray;
+$c-primary-dark: $c-dark-gray;
+$c-primary-darkest: $c-black;
+
+$secondary-light: $c-violet-light;
+$secondary-dark: $c-violet-dark;

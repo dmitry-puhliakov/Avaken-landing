@@ -1,0 +1,25 @@
+.logo {
+  &--top {
+    display: flex;
+  }
+
+  &--scroll {
+    display: none;
+  }
+
+  &__img {
+    margin-right: 15px;
+
+    @include onDesktop {
+      width: 64px;
+      height: 50px;
+    }
+  }
+
+  &__txt {
+    @include onDesktop {
+      width: 116px;
+
+    }
+  }
+}

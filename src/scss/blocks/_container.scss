@@ -1,0 +1,10 @@
+._container {
+  max-width: 1220px;
+  min-width: 340px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @include onDesktop {
+    padding: 0 30px;
+  }
+}

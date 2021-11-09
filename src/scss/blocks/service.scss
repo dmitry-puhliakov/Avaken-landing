@@ -1,0 +1,50 @@
+.service {
+  position: relative;
+  padding: 32px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 16px;
+    width: 4px;
+    height: 47px;
+    background-color: $secondary-light;
+  }
+
+  @include onDesktop {
+    margin-bottom: 0;
+  }
+
+  &__name {
+    margin-bottom: 8px;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+  }
+
+  &__text {
+    margin-bottom: 33px;
+  }
+
+  &__more {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 57px;
+    height: 57px;
+    background-image: url(/img/plus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    @extend %transition;
+
+    &:hover {
+      background-color: $secondary-light;
+      background-image: url(/img/plus-white.svg);
+    }
+  }
+}

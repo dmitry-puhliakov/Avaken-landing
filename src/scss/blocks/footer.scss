@@ -1,0 +1,45 @@
+.footer {
+  &__content {
+    @include onDesktop {
+      display: flex;
+    }
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+
+    @include onDesktop {
+      flex-basis: 48%;
+      object-fit: cover;
+      object-position: left;
+    }
+  }
+
+  &__feedback {
+    padding: 24px 20px;
+    background-color: $c-primary-dark;
+
+    @include onDesktop {
+      flex-basis: 52%;
+      padding: 32px 40px;
+
+    }
+  }
+
+  &__title {
+    margin-bottom: 8px;
+
+    @include onDesktop {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 20px;
+
+    @include onDesktop {
+      margin-bottom: 24px;
+    }
+  }
+}

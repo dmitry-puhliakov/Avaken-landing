@@ -1,0 +1,41 @@
+.page {
+  scroll-behavior: smooth;
+
+  &__header {
+    margin-bottom: 15px;
+
+    @include onDesktop {
+      margin-bottom: 40px;
+    }
+  }
+
+  &__section {
+    margin-bottom: 50px;
+    scroll-margin-top: 65px;
+
+    @include onDesktop {
+      margin-bottom: 100px;
+      scroll-margin-top: 130px;
+    }
+
+    &--aboutus {
+      margin-bottom: 0;
+
+      @include onDesktop {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__footer {
+    margin-top: 32px;
+    margin-bottom: 24px;
+    scroll-margin-top: 65px;
+
+    @include onDesktop {
+      margin-top: 56px;
+      margin-bottom: 72px;
+      scroll-margin-top: 130px;
+    }
+  }
+}

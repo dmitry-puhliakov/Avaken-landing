@@ -1,17 +1,2 @@
-@include font("Roboto", "Roboto/Roboto-Thin", "100", "normal");
-@include font("Roboto", "Roboto/Roboto-ThinItalic", "100", "italic");
-
-@include font("Roboto", "Roboto/Roboto-Light", "300", "normal");
-@include font("Roboto", "Roboto/Roboto-LightItalic", "300", "italic");
-
-@include font("Roboto", "Roboto/Roboto-Regular", "400", "normal");
-@include font("Roboto", "Roboto/Roboto-Italic", "400", "italic");
-
-@include font("Roboto", "Roboto/Roboto-Medium", "500", "normal");
-@include font("Roboto", "Roboto/Roboto-MediumItalic", "500", "italic");
-
-@include font("Roboto", "Roboto/Roboto-Bold", "700", "normal");
-@include font("Roboto", "Roboto/Roboto-BoldItalic", "700", "italic");
-
-@include font("Roboto", "Roboto/Roboto-Black", "900", "normal");
-@include font("Roboto", "Roboto/Roboto-BlackItalic", "900", "italic");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
