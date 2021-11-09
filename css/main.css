@@ -401,6 +401,8 @@ a {
 
 .header--scroll {
   background-color: #fff;
+  -webkit-box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 2px 0px 3px rgba(0, 0, 0, 0.2);
 }
 
 .header__content {
@@ -646,14 +648,14 @@ a {
   bottom: 0;
   width: 57px;
   height: 57px;
-  background-image: url(/img/plus.svg);
+  background-image: url(../img/plus.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .service__more:hover {
   background-color: #7637dd;
-  background-image: url(/img/plus-white.svg);
+  background-image: url(../img/plus-white.svg);
 }
 
 .footer__img {
