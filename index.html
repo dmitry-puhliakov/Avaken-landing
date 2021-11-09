@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaken - official webs site</title>
+    <link rel="icon" href="./img/favicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header class="page__header header">
+      <div class="header__content _container">
+        <a class="logo logo--top" href="/">
+          <img
+            class="logo__img"
+            src="/img/logo.svg"
+            alt="Avaken logo image"
+          >
+
+          <img
+            class="logo__txt"
+            src="/img/avaken.svg"
+            alt="Avaken"
+          >
+        </a>
+
+        <a class="logo logo--scroll" href="/">
+          <img
+            class="logo__img"
+            src="/img/logo-gray.svg"
+            alt="Avaken logo image"
+          >
+
+          <img
+            class="logo__txt"
+            src="/img/avaken-gray.svg"
+            alt="Avaken"
+          >
+        </a>
+
+        <nav class="header__menu menu">
+          <button class="menu__button" type="button">
+            <svg
+              class="menu__icon"
+              width="20"
+              height="19"
+            >
+              <use
+                class="menu__icon menu__icon--menu"
+                href="/img/menu-btn.svg#menu"
+             ></use>
+              <use
+                class="menu__icon menu__icon--cross"
+                href="/img/menu-btn.svg#cross"
+             ></use>
+            </svg>
+          </button>
+
+          <ul class="menu__list _container">
+            <li class="menu__item">
+              <a class="menu__link" href="#home">Home</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#aboutus">About</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#services">Services</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#services">News</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="#feedback">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page__section title">
+        <div class="title__content _container">
+          <div class="title__slider slider">
+
+            <!--Swiper-->
+            <div class="swiper-container" >
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture>
+                    <source media="(min-width:960px)" srcset="/img/slider-img1.jpg">
+                    <img src="/img/slider-img1-s.jpg" alt="Get shit done">
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source media="(min-width:960px)" srcset="/img/slider-img2.jpg">
+                    <img src="/img/slider-img2-s.jpg" alt="Get shit done">
+                  </picture>
+                </div>
+                <div class="swiper-slide">
+                  <picture>
+                    <source media="(min-width:960px)" srcset="/img/slider-img3.jpg">
+                    <img src="/img/slider-img3-s.jpg" alt="Get shit done">
+                  </picture>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider__arrows">
+              <div class="slider__arrow slider__arrow--l">&#129120;</div>
+              <div class="slider__arrow slider__arrow--r">&#129122;
+              </div>
+            </div>
+          </div>
+
+          <div class="title__text-box">
+            <h1 class="title__text">Let’s build something great!</h1>
+            <a class="title__more" href="">Learn More &#129122;</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="page__section section" id="services">
+        <div class="section__content _container">
+          <div class="section__separator">Services</div>
+
+          <div class="section__wrap">
+            <h2 class="section__title">Full-service digital capabilities from end to end.</h2>
+            <a class="section__more" href="/">See all services &#129122;</a>
+          </div>
+
+          <div class="section__services">
+            <div class="section__service service">
+              <div class="service__name">Experiences</div>
+              <h3 class="service__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius.</h3>
+              <p class="service__text">
+                Molestie facilisis sit nisl imperdiet nunc, enim sed a. Mi ac ut arcu sollicitudin pellentesque.
+              </p>
+              <a class="service__more" href=""></a>
+            </div>
+
+            <div class="section__service service">
+              <div class="service__name">Campaigns</div>
+              <h3 class="service__title">Cras sit cras eget interdum. Suspendisse nibh mattis non fames sit.</h3>
+              <p class="service__text">
+                Erat in ut nunc, morbi dictumst et lectus ligula enim. Porta porta nibh purus ac sit morbi et.
+              </p>
+              <a class="service__more" href=""></a>
+            </div>
+
+            <div class="section__service service">
+              <div class="service__name">Studio</div>
+              <h3 class="service__title">Mattis amet tincidunt sem morbi lacus blandit donec arcu dolor.</h3>
+              <p class="service__text">
+                Bibendum molestie tellus maecenas eget. Risus aenean vestibulum id porttitor mattis.
+              </p>
+              <a class="service__more" href="#!"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="page__section page__section--aboutus section" id="aboutus">
+        <div class="section__content _container">
+          <div class="section__separator">About us</div>
+          <div class="section__wrap">
+            <h2 class="section__title">Sit bibendum id proin felis auctor erat ac.</h2>
+            <div class="section__wrap section__wrap--aboutus">
+              <p class="section__text">
+                Aliquam egestas hac morbi eu. Eros, elit est diam mattis laoreet faucibus lectus. Cursus sed tellus augue morbi pulvinar. Consequat nisi, integer potenti consectetur. Sed leo massa morbi iaculis viverra.
+              </p>
+              <a class="section__more section__more--aboutus" href="/">Read more &#129122;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="page__footer footer" id="feedback">
+        <div class="footer__content _container">
+          <img
+            class="footer__img"
+            src="/img/about-img.png"
+            alt="About us image"
+          >
+
+          <div class="footer__feedback">
+            <h2 class="footer__title">Write Me.</h2>
+            <p class="footer__text">
+              Sit et vulputate posuere id diam ac eget lacinia enim. Id congue sapien libero sed. Aliquet amet eget placerat facilisis leo, sit consequat.
+            </p>
+
+            <form class="feedback" action="/">
+              <div class="feedback__wrap">
+                <div class="feedback__field">
+                  <label class="feedback__label" for="user-name">Full Name</label>
+
+                  <input
+                    class="feedback__input"
+                    id="user-name"
+                    type="text"
+                    name="user-name"
+                    required
+                  >
+                </div>
+
+                <div class="feedback__field">
+                  <label class="feedback__label" for="user-phone">Phone</label>
+
+                  <input
+                    class="feedback__input"
+                    id="user-phone"
+                    type="phone"
+                    name="user-phone"
+                    required
+                  >
+                </div>
+              </div>
+
+
+              <label class="feedback__label" for="user-email">Email Address</label>
+              <input
+                class="feedback__input"
+                id="user-email"
+                type="email"
+                name="user-email"
+                required
+              >
+
+              <label class="feedback__label" for="user-message">Message</label>
+              <textarea
+                class="feedback__input feedback__input--area"
+                id="user-message"
+                name="user-message"
+             ></textarea>
+
+              <button class="feedback__submit" type="submit">
+                Send Message 🡢
+              </button>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://unpkg.com/swiper@6/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+   ></script>
+    <script type="text/javascript" src="js/main.min.js"></script>
+  </body>
+</html>
